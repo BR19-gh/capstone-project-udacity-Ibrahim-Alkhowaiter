@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Casting Agency</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.8.0/css/bulma.min.css" />
+    <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
+    <style>
+    </style>
+</head>
+
+<style>
+    body{
+        cursor: default;
+    }
+    span{
+        font-family: 'Courier New', Courier, monospace;
+    }
+    p{
+padding: 5px;
+    }
+    .card{
+        padding: 10px;
+        margin: 15px;
+        width: 30%;
+        font-size: 20px;
+        transition: ease-in-out 200ms;
+    }
+    .card:hover{
+        transform: scale(1.02);
+        box-shadow: 0 0 30px rgb(0 0 0 / 40%);
+    }
+    .card-header{
+        font-size: 30px;  
+    }
+    section{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        width: 100%;
+    }
+
+.vertical-center {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+a:hover{
+    cursor: default;
+}
+</style>
+
+<body>
+
+   <section class="vertical-center">
+    <center style="width: 100%; height: 150px;">
+        <h1 class="title">Casting agency</h1>
+        <p class="subtitle">Udacity Capstone FSND Project by Ibrahim Alkhowaiter</p>
+    </center>
+    <div class="card">
+        <div class="card-header">
+            Casting Assistant
+        </div>
+        <div class="card-body">
+          <p class="card-text">Access Token:<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-html" data-lang="html">eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCIsImtpZCI6ImZfSUpjeG13XzJTdHQ0TDN3RlR1MiJ9.eyJpc3MiOiJodHRwczovL2JyMTkuZXUuYXV0aDAuY29tLyIsInN1YiI6ImF1dGgwfDYxMjZiOTQwZjYwOGFjMDA2OTdmNzY4ZCIsImF1ZCI6ImNhcHN0b25lIiwiaWF0IjoxNjMwMDExNTUyLCJleHAiOjE2MzAwMTg3NTIsImF6cCI6IndwTmFqUXdSZ3d3bDc2bWVuR1NBU2lScHhIZ0JtekllIiwic2NvcGUiOiIiLCJwZXJtaXNzaW9ucyI6WyJnZXQ6YWN0b3JzIiwiZ2V0Om1vdmllcyJdfQ.0wQfRo-F4HX5PdhRGao2i7Fk1IkpO9HzlUpWfsFYRFQcso3oCdky81QWItT2ARwkEejSNKdQK0y33ViYWjmarhDIrOZuSIIQsi-YI9UB01jBA02RD7b6qRoYX_4fO8tWeEoZNJW7gWPDtbKjSfv7DXJ4ndGHq8KEPJhPihTspDd6VjkkLOIrw78SscLZ28XLZ2nFS2ePgZub_skSEmhLBV4CNmF0oLZ1ZX0qmFQ06MHbAKnaBpyy2ork0h_9sB8qEOTHlfQm2uVqTwiB8_-VnVglZ6rIGizjeXeGqiA8Fe16YId0YtHGmgUP6Yf8XAbRiFYSDZ4odLexgG_KFj9QpA</code></pre></div></p>
+          <p class="card-text">Username: castingassistant@gmail.com</p>
+          <p class="card-text">Password: Aa1324656</p>
+          <span class="tag is-primary has-background-grey-dark">get : actors</span>
+          <span class="tag is-primary has-background-grey-dark">get : movies</span>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-header">
+            Casting Director
+        </div>
+
+        <div class="card-body">
+          <p class="card-text">Access Token:<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-html" data-lang="html">eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCIsImtpZCI6ImZfSUpjeG13XzJTdHQ0TDN3RlR1MiJ9.eyJpc3MiOiJodHRwczovL2JyMTkuZXUuYXV0aDAuY29tLyIsInN1YiI6ImF1dGgwfDYxMjZiOTZmNzhiMzhjMDA2YWMxZDBiZSIsImF1ZCI6ImNhcHN0b25lIiwiaWF0IjoxNjMwMDEyOTE0LCJleHAiOjE2MzAwMjAxMTQsImF6cCI6IndwTmFqUXdSZ3d3bDc2bWVuR1NBU2lScHhIZ0JtekllIiwic2NvcGUiOiIiLCJwZXJtaXNzaW9ucyI6WyJkZWxldGU6YWN0b3JzIiwiZ2V0OmFjdG9ycyIsImdldDptb3ZpZXMiLCJwYXRjaDphY3RvcnMiLCJwYXRjaDptb3ZpZXMiLCJwb3N0OmFjdG9ycyJdfQ.NdQl-mLhk5RombGwxStsIK4ZhwTE6Dpt0y4J9GTv6sEEYlPMuuuCC9N_aikb5KN3wP8GwpbvLEboiSt8kAngjk7o-r1eeFTRNlGXHTOtSz3rJit6QIZHjLr81ButH3KCTe8B3JYLqQG9qD3pr5LbFbm6yrY5NvHBKnTCXbOTwz-uU6GYAyknxCgwmDI5xARIajXe7WizABKe3vUXKAYY4moParKRaaxYypRPFVfHUDHHPhllS2U5lF8NBSIZaXju_8DjnkwCitiN8bNZjNr3LbQYooaZjbqb9rWYod1lAT4nUtlqKnCydB9ys5fdE_FEWDOpwJaP6fppMzcuvkniyA</code></pre></div></p>
+          <p class="card-text">Username: castingdirector@gmail.com</p>
+          <p class="card-text">Password: Aa1325656</p>
+          <span class="tag is-primary has-background-grey-dark">get : actors</span>
+          <span class="tag is-primary has-background-grey-dark">get : movies</span>
+          <span class="tag is-primary has-background-grey-dark">post : actors</span>
+          <span class="tag is-primary has-background-grey-dark">patch : movies</span>
+          <span class="tag is-primary has-background-grey-dark">delete : actors</span>
+          <span class="tag is-primary has-background-grey-dark">patch : actors</span>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-header">
+            Executive Producer
+        </div>
+        <div class="card-body">
+          <p class="card-text">Access Token:<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-html" data-lang="html">eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCIsImtpZCI6ImZfSUpjeG13XzJTdHQ0TDN3RlR1MiJ9.eyJpc3MiOiJodHRwczovL2JyMTkuZXUuYXV0aDAuY29tLyIsInN1YiI6ImF1dGgwfDYxMjZiOWEzYTYxZWRiMDA2OThmZGQxMiIsImF1ZCI6ImNhcHN0b25lIiwiaWF0IjoxNjMwMDExODgyLCJleHAiOjE2MzAwMTkwODIsImF6cCI6IndwTmFqUXdSZ3d3bDc2bWVuR1NBU2lScHhIZ0JtekllIiwic2NvcGUiOiIiLCJwZXJtaXNzaW9ucyI6WyJkZWxldGU6YWN0b3JzIiwiZGVsZXRlOm1vdmllcyIsImdldDphY3RvcnMiLCJnZXQ6bW92aWVzIiwicGF0Y2g6YWN0b3JzIiwicGF0Y2g6bW92aWVzIiwicG9zdDphY3RvcnMiLCJwb3N0Om1vdmllcyJdfQ.rJ1bWw2ZMNfGYxV5HZKxAdrtgBRY4o_j_ArfUswD16_D3vJBhHjm2Yq6vK-jXhZ0T1v6LTcquhrD50HBEdiFmpV2MKN5uTWnBg1-28meBR4dEKHq5kMn4mQg6xQEezNlohvDz1b1T_2U2E3CFTeiwYcHhNdd3XriQTX-1g2m4z-B79ilJv0ML7N3AFec5ckzIyPTK8svmJewEGkyvQoccX3a85m1KMVqgaI_dJEIS5joevhSSVtLJ8sRdym0bdgxr7SA04FzQIUMxD2g-f-zcK0hOv358xpZJi9NhjWDUfiputYzmyf1v1ik3gyGUS6w2Kb3t6SPDSdgS25azyJ8Kg</code></pre></div></p>
+          <p class="card-text">Username: executiveproducer@gmail.com</p>
+          <p class="card-text">Password: Aa1324656</p>
+          <span class="tag is-primary has-background-grey-dark">get : actors</span>
+          <span class="tag is-primary has-background-grey-dark">get : movies</span>
+          <span class="tag is-primary has-background-grey-dark">post : actors</span>
+          <span class="tag is-primary has-background-grey-dark">post : movies</span>
+          <span class="tag is-primary has-background-grey-dark">patch : actors</span>
+          <span class="tag is-primary has-background-grey-dark">patch : movies</span>
+          <span class="tag is-primary has-background-grey-dark">delete : actors</span>
+          <span class="tag is-primary has-background-grey-dark">delete : movies</span>
+        </div>
+      </div>
+
+            <a class="button is-primary has-background-grey-darker" style="cursor: pointer;" href="https://br19.eu.auth0.com/authorize?audience=capstone&response_type=token&client_id=wpNajQwRgwwl76menGSASiRpxHgBmzIe&redirect_uri=https://br19-capstone-project.herokuapp.com/login-results">Log In</a>
+    </section>
+</body>
+
+</html>
